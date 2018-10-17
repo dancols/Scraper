@@ -43,7 +43,7 @@ namespace Scraper {
             response.Close();
 
             // Parse out the exchange rate (for MobileURL)
-            // snippet can be set by configuration (country code) in case the web page's markup is changed
+            // Snippet can be set by configuration (country code) in case the web page's markup is changed
             string snippet = "<span class=\"unidades\"><b>DOLAR:</b> </span><span class=\"cantidad\">";
 
             string exchangeRate;
